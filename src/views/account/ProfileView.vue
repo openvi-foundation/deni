@@ -20,8 +20,8 @@ import PagePanel from '@/components/PagePanel.vue';
 const toast = useToast();
 
 const profile = reactive({
-    name: 'Nikola Jevric',
-    email: 'njevric9@gmail.com',
+    name: 'Mara Keller',
+    email: 'mara.keller@mail.dev',
     title: 'Product engineer',
     location: 'Berlin, Germany',
     timezone: 'Europe/Berlin',
@@ -66,7 +66,7 @@ const save = () => {
                 <TabPanels>
                     <TabPanel value="general">
                         <div style="display: flex; align-items: center; gap: 16px">
-                            <Avatar label="NJ" shape="circle" size="xlarge" />
+                            <Avatar label="MK" shape="circle" size="xlarge" />
                             <div>
                                 <p style="font-size: 14px; font-weight: 600">{{ profile.name }}</p>
                                 <p class="cell-sub">{{ profile.title }}</p>

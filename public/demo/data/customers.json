@@ -205,8 +205,8 @@
     },
     {
         "id": "cus-0018",
-        "name": "Nikola Chen",
-        "email": "nikola.chen@mail.dev",
+        "name": "Mira Chen",
+        "email": "mira.chen@mail.dev",
         "company": "Northwind Labs",
         "country": "Serbia",
         "role": "Owner",
@@ -265,8 +265,8 @@
     },
     {
         "id": "cus-0023",
-        "name": "Yuki Jevric",
-        "email": "yuki.jevric@acme.io",
+        "name": "Yuki Tanaka",
+        "email": "yuki.tanaka@acme.io",
         "company": "Blue Harbour",
         "country": "Italy",
         "role": "Editor",
@@ -409,8 +409,8 @@
     },
     {
         "id": "cus-0035",
-        "name": "Anika Jevric",
-        "email": "anika.jevric@mail.dev",
+        "name": "Anika Sorensen",
+        "email": "anika.sorensen@mail.dev",
         "company": "Northwind Labs",
         "country": "Japan",
         "role": "Owner",

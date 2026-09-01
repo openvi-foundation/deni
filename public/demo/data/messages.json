@@ -56,8 +56,8 @@
   },
   {
     "id": "msg-0014",
-    "from": "Yuki Jevric",
-    "email": "yuki.jevric@proton.dev",
+    "from": "Yuki Tanaka",
+    "email": "yuki.tanaka@proton.dev",
     "subject": "Shipping delay notice",
     "preview": "Following up on the thread from last week. We would like to confirm the delivery window before the end of the…",
     "body": "Following up on the thread from last week. We would like to confirm the delivery window before the end of the month, and understand whether the revised quantities change the unit price.",
@@ -100,8 +100,8 @@
   },
   {
     "id": "msg-0016",
-    "from": "Nikola Ferrari",
-    "email": "nikola.ferrari@mail.dev",
+    "from": "Marco Ferrari",
+    "email": "marco.ferrari@mail.dev",
     "subject": "Invoice for August",
     "preview": "Our team is evaluating the platform for a rollout across three regions. Could you share the current pricing ti…",
     "body": "Our team is evaluating the platform for a rollout across three regions. Could you share the current pricing tiers and whether volume discounts apply above two hundred seats?",
@@ -166,8 +166,8 @@
   },
   {
     "id": "msg-0011",
-    "from": "Nikola Lindgren",
-    "email": "nikola.lindgren@example.com",
+    "from": "Elin Lindgren",
+    "email": "elin.lindgren@example.com",
     "subject": "Refund status",
     "preview": "The unit arrived with a cracked housing. Photos are attached to the original order. We would prefer a replacem…",
     "body": "The unit arrived with a cracked housing. Photos are attached to the original order. We would prefer a replacement rather than a refund if one can be shipped this week.",

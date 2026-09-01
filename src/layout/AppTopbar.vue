@@ -82,8 +82,8 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown));
             <span class="topbar-divider" />
 
             <button type="button" class="topbar-user" aria-haspopup="true" @click="toggleUserMenu">
-                <Avatar label="NJ" shape="circle" size="normal" />
-                <span class="topbar-user-name">Nikola</span>
+                <Avatar label="MK" shape="circle" size="normal" />
+                <span class="topbar-user-name">Mara</span>
                 <i class="pi pi-angle-down muted" style="font-size: 12px" />
             </button>
         </div>

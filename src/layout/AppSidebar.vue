@@ -48,10 +48,10 @@ const openAccountMenu = (event: Event) => {
 
         <div class="sidebar-footer">
             <button type="button" class="sidebar-account" aria-haspopup="true" @click="openAccountMenu">
-                <Avatar label="NJ" shape="circle" size="normal" />
+                <Avatar label="MK" shape="circle" size="normal" />
                 <span class="sidebar-account-text">
-                    <span class="sidebar-account-name">Nikola Jevric</span>
-                    <span class="sidebar-account-email">njevric9@gmail.com</span>
+                    <span class="sidebar-account-name">Mara Keller</span>
+                    <span class="sidebar-account-email">mara.keller@mail.dev</span>
                 </span>
                 <i class="pi pi-ellipsis-v muted" style="margin-left: auto; font-size: 12px" />
             </button>
