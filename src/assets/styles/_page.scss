@@ -157,6 +157,22 @@
     color: var(--p-red-400);
 }
 
+.chart-box {
+    height: 240px;
+}
+
+.option-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.option-title {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+}
+
 .empty-state {
     display: flex;
     flex-direction: column;

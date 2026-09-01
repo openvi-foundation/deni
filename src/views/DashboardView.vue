@@ -119,12 +119,12 @@ const openRangeMenu = (event: Event) => {
             <div class="grid grid-halves">
                 <PagePanel title="Revenue" description="Net of refunds, by month.">
                     <Skeleton v-if="analyticsLoading" height="240px" />
-                    <Chart v-else type="line" :data="revenueChart" :options="chartOptions" style="height: 240px" />
+                    <Chart v-else type="line" :data="revenueChart" :options="chartOptions" class="chart-box" />
                 </PagePanel>
 
                 <PagePanel title="Orders" description="Completed checkouts, by month.">
                     <Skeleton v-if="analyticsLoading" height="240px" />
-                    <Chart v-else type="bar" :data="ordersChart" :options="chartOptions" style="height: 240px" />
+                    <Chart v-else type="bar" :data="ordersChart" :options="chartOptions" class="chart-box" />
                 </PagePanel>
             </div>
 

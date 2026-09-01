@@ -10,6 +10,7 @@
     --deni-ground: var(--p-surface-50);
     --deni-scroll: var(--p-surface-300);
     --deni-scroll-hover: var(--p-surface-400);
+    --deni-mask: color-mix(in srgb, var(--p-surface-900) 40%, transparent);
 }
 
 .app-dark {

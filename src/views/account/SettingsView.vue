@@ -122,10 +122,10 @@ const deleteWorkspace = () => {
 
             <PagePanel title="Notifications" description="Choose what lands in your inbox." flush>
                 <div class="panel-body" style="display: flex; flex-direction: column; gap: 4px">
-                    <div v-for="row in notificationRows" :key="row.key" style="display: flex; align-items: flex-start; gap: 12px; padding: 10px 0">
+                    <div v-for="row in notificationRows" :key="row.key" class="option-row" style="padding: 10px 0">
                         <ToggleSwitch v-model="notifications[row.key]" :input-id="`notify-${row.key}`" />
                         <label :for="`notify-${row.key}`">
-                            <span style="display: block; font-size: 13px; font-weight: 600">{{ row.label }}</span>
+                            <span class="option-title">{{ row.label }}</span>
                             <span class="field-hint">{{ row.hint }}</span>
                         </label>
                     </div>

@@ -6,6 +6,6 @@
     "stack": ["vite", "vue3", "typescript", "vue-router"],
     "styling": "styled",
     "theme": "aura",
-    "openvue": "^1.0.0-rc.0",
+    "openvue": "1.0.0-rc.0",
     "license": "MIT"
 }

@@ -106,26 +106,26 @@ const save = () => {
 
                     <TabPanel value="security">
                         <div class="stack" style="max-width: 620px">
-                            <div style="display: flex; align-items: flex-start; gap: 12px">
+                            <div class="option-row">
                                 <ToggleSwitch v-model="security.twoFactor" input-id="sec-2fa" />
                                 <label for="sec-2fa">
-                                    <span style="display: block; font-size: 13px; font-weight: 600">Two-factor authentication</span>
+                                    <span class="option-title">Two-factor authentication</span>
                                     <span class="field-hint">Require a one-time code from your authenticator app at sign-in.</span>
                                 </label>
                             </div>
 
-                            <div style="display: flex; align-items: flex-start; gap: 12px">
+                            <div class="option-row">
                                 <ToggleSwitch v-model="security.sessionAlerts" input-id="sec-alerts" />
                                 <label for="sec-alerts">
-                                    <span style="display: block; font-size: 13px; font-weight: 600">New sign-in alerts</span>
+                                    <span class="option-title">New sign-in alerts</span>
                                     <span class="field-hint">Email me whenever a new device signs in to this account.</span>
                                 </label>
                             </div>
 
-                            <div style="display: flex; align-items: flex-start; gap: 12px">
+                            <div class="option-row">
                                 <ToggleSwitch v-model="security.passwordless" input-id="sec-passwordless" />
                                 <label for="sec-passwordless">
-                                    <span style="display: block; font-size: 13px; font-weight: 600">Passwordless sign-in</span>
+                                    <span class="option-title">Passwordless sign-in</span>
                                     <span class="field-hint">Use a passkey instead of a password where the browser supports it.</span>
                                 </label>
                             </div>

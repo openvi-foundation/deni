@@ -90,22 +90,22 @@ const revenueChart = computed(() => ({
             <div class="grid grid-halves">
                 <PagePanel title="Units by category">
                     <Skeleton v-if="loading" height="240px" />
-                    <Chart v-else type="bar" :data="categoriesChart" :options="options" style="height: 240px" />
+                    <Chart v-else type="bar" :data="categoriesChart" :options="options" class="chart-box" />
                 </PagePanel>
 
                 <PagePanel title="Acquisition channels">
                     <Skeleton v-if="loading" height="240px" />
-                    <Chart v-else type="doughnut" :data="channelsChart" :options="noScales" style="height: 240px" />
+                    <Chart v-else type="doughnut" :data="channelsChart" :options="noScales" class="chart-box" />
                 </PagePanel>
 
                 <PagePanel title="Weekly retention">
                     <Skeleton v-if="loading" height="240px" />
-                    <Chart v-else type="line" :data="retentionChart" :options="options" style="height: 240px" />
+                    <Chart v-else type="line" :data="retentionChart" :options="options" class="chart-box" />
                 </PagePanel>
 
                 <PagePanel title="Satisfaction">
                     <Skeleton v-if="loading" height="240px" />
-                    <Chart v-else type="radar" :data="satisfactionChart" :options="radarOptions" style="height: 240px" />
+                    <Chart v-else type="radar" :data="satisfactionChart" :options="radarOptions" class="chart-box" />
                 </PagePanel>
             </div>
         </div>

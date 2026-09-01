@@ -75,7 +75,7 @@ const hasEvents = (date: { year: number; month: number; day: number }) => byDate
                     <div v-else class="stack" style="gap: 8px">
                         <button v-for="event in dayEvents" :key="event.id" type="button" class="search-result" style="align-items: flex-start" @click="active = event">
                             <span style="display: block; flex: 1">
-                                <span style="display: block; font-size: 13px; font-weight: 600">{{ event.title }}</span>
+                                <span class="option-title">{{ event.title }}</span>
                                 <span class="cell-sub">{{ event.time }} · {{ event.owner }}</span>
                             </span>
                             <Tag :value="event.kind" :severity="severities[event.kind]" />
