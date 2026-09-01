@@ -17,6 +17,7 @@
         "@openvue/forms": "1.0.0-rc.0",
         "@openvue/openicons": "^1.0.0",
         "@openvue/themes": "1.0.0-rc.0",
+        "@vercel/analytics": "^2.0.1",
         "chart.js": "^4.5.1",
         "openvue": "1.0.0-rc.0",
         "vue": "^3.5.42",
