@@ -1,0 +1,146 @@
+{
+  "revenue": [
+    {
+      "label": "Mar",
+      "value": 53471
+    },
+    {
+      "label": "Apr",
+      "value": 70668
+    },
+    {
+      "label": "May",
+      "value": 66012
+    },
+    {
+      "label": "Jun",
+      "value": 50692
+    },
+    {
+      "label": "Jul",
+      "value": 41181
+    },
+    {
+      "label": "Aug",
+      "value": 75146
+    }
+  ],
+  "orders": [
+    {
+      "label": "Mar",
+      "value": 670
+    },
+    {
+      "label": "Apr",
+      "value": 396
+    },
+    {
+      "label": "May",
+      "value": 611
+    },
+    {
+      "label": "Jun",
+      "value": 767
+    },
+    {
+      "label": "Jul",
+      "value": 730
+    },
+    {
+      "label": "Aug",
+      "value": 436
+    }
+  ],
+  "channels": [
+    {
+      "label": "Direct",
+      "value": 42
+    },
+    {
+      "label": "Organic",
+      "value": 27
+    },
+    {
+      "label": "Referral",
+      "value": 18
+    },
+    {
+      "label": "Paid",
+      "value": 13
+    }
+  ],
+  "categories": [
+    {
+      "label": "Accessories",
+      "value": 627
+    },
+    {
+      "label": "Audio",
+      "value": 547
+    },
+    {
+      "label": "Displays",
+      "value": 770
+    },
+    {
+      "label": "Furniture",
+      "value": 500
+    },
+    {
+      "label": "Input Devices",
+      "value": 616
+    },
+    {
+      "label": "Networking",
+      "value": 455
+    }
+  ],
+  "retention": [
+    {
+      "label": "Week 1",
+      "value": 100
+    },
+    {
+      "label": "Week 2",
+      "value": 91
+    },
+    {
+      "label": "Week 3",
+      "value": 84
+    },
+    {
+      "label": "Week 4",
+      "value": 70
+    },
+    {
+      "label": "Week 5",
+      "value": 68
+    },
+    {
+      "label": "Week 6",
+      "value": 50
+    }
+  ],
+  "satisfaction": [
+    {
+      "label": "Speed",
+      "value": 62
+    },
+    {
+      "label": "Support",
+      "value": 72
+    },
+    {
+      "label": "Pricing",
+      "value": 60
+    },
+    {
+      "label": "Docs",
+      "value": 81
+    },
+    {
+      "label": "Reliability",
+      "value": 86
+    }
+  ]
+}

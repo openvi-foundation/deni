@@ -1,0 +1,146 @@
+[
+  {
+    "id": "evt-0006",
+    "title": "Contract renewal",
+    "date": "2026-09-01",
+    "time": "08:30",
+    "kind": "deadline",
+    "owner": "Amara Ferrari"
+  },
+  {
+    "id": "evt-0008",
+    "title": "Ship catalogue rewrite",
+    "date": "2026-09-03",
+    "time": "11:15",
+    "kind": "release",
+    "owner": "Mei Chen"
+  },
+  {
+    "id": "evt-0011",
+    "title": "Content audit",
+    "date": "2026-09-05",
+    "time": "12:00",
+    "kind": "review",
+    "owner": "Maya Novak"
+  },
+  {
+    "id": "evt-0001",
+    "title": "Publish changelog",
+    "date": "2026-09-06",
+    "time": "08:00",
+    "kind": "release",
+    "owner": "Luca Karim"
+  },
+  {
+    "id": "evt-0004",
+    "title": "Invoices due",
+    "date": "2026-09-07",
+    "time": "08:15",
+    "kind": "deadline",
+    "owner": "Ines Nielsen"
+  },
+  {
+    "id": "evt-0017",
+    "title": "Weekly product sync",
+    "date": "2026-09-07",
+    "time": "08:45",
+    "kind": "meeting",
+    "owner": "Rafael Jevric"
+  },
+  {
+    "id": "evt-0009",
+    "title": "Contract renewal",
+    "date": "2026-09-09",
+    "time": "15:45",
+    "kind": "deadline",
+    "owner": "Jonas Aliyeva"
+  },
+  {
+    "id": "evt-0012",
+    "title": "Publish changelog",
+    "date": "2026-09-09",
+    "time": "10:30",
+    "kind": "release",
+    "owner": "Priya Chen"
+  },
+  {
+    "id": "evt-0015",
+    "title": "Vendor call",
+    "date": "2026-09-12",
+    "time": "08:15",
+    "kind": "meeting",
+    "owner": "Stefan Marek"
+  },
+  {
+    "id": "evt-0003",
+    "title": "Content audit",
+    "date": "2026-09-13",
+    "time": "10:15",
+    "kind": "review",
+    "owner": "Sofia Tanaka"
+  },
+  {
+    "id": "evt-0018",
+    "title": "Publish changelog",
+    "date": "2026-09-18",
+    "time": "10:15",
+    "kind": "release",
+    "owner": "Rafael Farouk"
+  },
+  {
+    "id": "evt-0014",
+    "title": "Publish changelog",
+    "date": "2026-09-22",
+    "time": "17:00",
+    "kind": "release",
+    "owner": "Noah Nasser"
+  },
+  {
+    "id": "evt-0005",
+    "title": "Stock count deadline",
+    "date": "2026-09-23",
+    "time": "17:45",
+    "kind": "deadline",
+    "owner": "Omar Nasser"
+  },
+  {
+    "id": "evt-0007",
+    "title": "Stock count deadline",
+    "date": "2026-09-23",
+    "time": "12:45",
+    "kind": "deadline",
+    "owner": "Priya Aliyeva"
+  },
+  {
+    "id": "evt-0013",
+    "title": "Publish changelog",
+    "date": "2026-09-24",
+    "time": "16:15",
+    "kind": "release",
+    "owner": "Luca Bauer"
+  },
+  {
+    "id": "evt-0010",
+    "title": "Vendor call",
+    "date": "2026-09-25",
+    "time": "10:00",
+    "kind": "meeting",
+    "owner": "Stefan Virtanen"
+  },
+  {
+    "id": "evt-0002",
+    "title": "Contract renewal",
+    "date": "2026-09-27",
+    "time": "15:45",
+    "kind": "deadline",
+    "owner": "Jonas Dubois"
+  },
+  {
+    "id": "evt-0016",
+    "title": "Vendor call",
+    "date": "2026-09-28",
+    "time": "09:15",
+    "kind": "meeting",
+    "owner": "Elena Petrova"
+  }
+]

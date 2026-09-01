@@ -1,0 +1,200 @@
+[
+    {
+        "id": "act-0013",
+        "actor": "Sofia Tanaka",
+        "action": "published",
+        "target": "Halcyon Hub",
+        "at": "2026-08-30T19:39:00Z",
+        "kind": "publish",
+        "productId": "prd-0029"
+    },
+    {
+        "id": "act-0010",
+        "actor": "Yuki Nielsen",
+        "action": "published",
+        "target": "Halcyon Hub",
+        "at": "2026-08-30T18:14:00Z",
+        "kind": "publish",
+        "productId": "prd-0029"
+    },
+    {
+        "id": "act-0004",
+        "actor": "Mei Serrano",
+        "action": "updated",
+        "target": "Solace Mouse",
+        "at": "2026-08-30T17:47:00Z",
+        "kind": "update",
+        "productId": "prd-0019"
+    },
+    {
+        "id": "act-0011",
+        "actor": "Aisha Bergman",
+        "action": "deleted",
+        "target": "Vantage Stand",
+        "at": "2026-08-28T19:59:00Z",
+        "kind": "delete",
+        "productId": "prd-0036"
+    },
+    {
+        "id": "act-0007",
+        "actor": "Mei Bergman",
+        "action": "updated",
+        "target": "Onyx Chair",
+        "at": "2026-08-28T14:13:00Z",
+        "kind": "update",
+        "productId": "prd-0007"
+    },
+    {
+        "id": "act-0014",
+        "actor": "Stefan Chen",
+        "action": "created",
+        "target": "Quartz Microphone",
+        "at": "2026-08-28T11:41:00Z",
+        "kind": "create",
+        "productId": "prd-0022"
+    },
+    {
+        "id": "act-0002",
+        "actor": "Noah Farouk",
+        "action": "created",
+        "target": "Ridge Monitor",
+        "at": "2026-08-28T08:52:00Z",
+        "kind": "create",
+        "productId": "prd-0040"
+    },
+    {
+        "id": "act-0008",
+        "actor": "Amara Rossi",
+        "action": "updated",
+        "target": "Vertex Chair",
+        "at": "2026-08-27T15:54:00Z",
+        "kind": "update",
+        "productId": "prd-0030"
+    },
+    {
+        "id": "act-1007",
+        "actor": "Lukas Berg",
+        "action": "created",
+        "target": "Halcyon Hub",
+        "at": "2026-08-26T16:20:00Z",
+        "kind": "create",
+        "productId": "prd-0008"
+    },
+    {
+        "id": "act-1006",
+        "actor": "Ada Okafor",
+        "action": "updated",
+        "target": "Onyx Chair",
+        "at": "2026-08-24T15:20:00Z",
+        "kind": "update",
+        "productId": "prd-0007"
+    },
+    {
+        "id": "act-0006",
+        "actor": "Freya Bergman",
+        "action": "published",
+        "target": "Ember Keyboard",
+        "at": "2026-08-24T14:53:00Z",
+        "kind": "publish",
+        "productId": "prd-0028"
+    },
+    {
+        "id": "act-0003",
+        "actor": "Stefan Okafor",
+        "action": "deleted",
+        "target": "Ember Keyboard",
+        "at": "2026-08-24T09:14:00Z",
+        "kind": "delete",
+        "productId": "prd-0028"
+    },
+    {
+        "id": "act-0001",
+        "actor": "Yuki Alvarez",
+        "action": "created",
+        "target": "Nimbus Mouse",
+        "at": "2026-08-23T14:51:00Z",
+        "kind": "create",
+        "productId": "prd-0025"
+    },
+    {
+        "id": "act-1005",
+        "actor": "Milan Kovac",
+        "action": "published",
+        "target": "Solace SSD Enclosure",
+        "at": "2026-08-22T14:20:00Z",
+        "kind": "publish",
+        "productId": "prd-0006"
+    },
+    {
+        "id": "act-0005",
+        "actor": "Ines Virtanen",
+        "action": "published",
+        "target": "Vantage Stand",
+        "at": "2026-08-22T14:05:00Z",
+        "kind": "publish",
+        "productId": "prd-0036"
+    },
+    {
+        "id": "act-0009",
+        "actor": "Maya Moreau",
+        "action": "updated",
+        "target": "Corvus Hub",
+        "at": "2026-08-21T17:22:00Z",
+        "kind": "update",
+        "productId": "prd-0034"
+    },
+    {
+        "id": "act-0012",
+        "actor": "Omar Lindqvist",
+        "action": "deleted",
+        "target": "Solace Desk Lamp",
+        "at": "2026-08-20T17:58:00Z",
+        "kind": "delete",
+        "productId": "prd-0039"
+    },
+    {
+        "id": "act-1004",
+        "actor": "Sofia Tanaka",
+        "action": "updated",
+        "target": "Drift Keyboard",
+        "at": "2026-08-20T13:20:00Z",
+        "kind": "update",
+        "productId": "prd-0005"
+    },
+    {
+        "id": "act-1003",
+        "actor": "Lukas Berg",
+        "action": "created",
+        "target": "Quartz Keyboard",
+        "at": "2026-08-18T12:20:00Z",
+        "kind": "create",
+        "productId": "prd-0004"
+    },
+    {
+        "id": "act-1002",
+        "actor": "Ada Okafor",
+        "action": "updated",
+        "target": "Quartz Desk Lamp",
+        "at": "2026-08-16T11:20:00Z",
+        "kind": "update",
+        "productId": "prd-0003"
+    },
+    {
+        "id": "act-1001",
+        "actor": "Milan Kovac",
+        "action": "published",
+        "target": "Ridge Keyboard",
+        "at": "2026-08-14T10:20:00Z",
+        "kind": "publish",
+        "productId": "prd-0002"
+    },
+    {
+        "id": "act-1000",
+        "actor": "Sofia Tanaka",
+        "action": "updated",
+        "target": "Quartz Trackpad",
+        "at": "2026-08-12T09:20:00Z",
+        "kind": "update",
+        "productId": "prd-0001"
+    }
+]

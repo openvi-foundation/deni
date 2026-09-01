@@ -1,0 +1,1982 @@
+[
+    {
+        "id": "ord-0001",
+        "reference": "#14143",
+        "customerId": "cus-0004",
+        "customer": "Diego Farouk",
+        "email": "diego.farouk@acme.io",
+        "total": 1756.7,
+        "items": 2,
+        "status": "failed",
+        "placedAt": "2026-07-31",
+        "lines": [
+            {
+                "productId": "prd-0006",
+                "name": "Solace SSD Enclosure",
+                "sku": "SO-3266",
+                "quantity": 2,
+                "unitPrice": 878.35
+            }
+        ],
+        "shipping": {
+            "line1": "Kastanjelaan 12",
+            "city": "Tampere",
+            "postcode": "1000 AA",
+            "country": "Finland"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-07-31T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment failed",
+                "at": "2026-07-31T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-01T14:00:00Z",
+                "done": false
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-04T11:00:00Z",
+                "done": false
+            }
+        ]
+    },
+    {
+        "id": "ord-0002",
+        "reference": "#62540",
+        "customerId": "cus-0011",
+        "customer": "Nadia Alvarez",
+        "email": "nadia.alvarez@mail.dev",
+        "total": 2395.62,
+        "items": 8,
+        "status": "refunded",
+        "placedAt": "2026-08-29",
+        "lines": [
+            {
+                "productId": "prd-0017",
+                "name": "Cinder Stand",
+                "sku": "CI-4295",
+                "quantity": 3,
+                "unitPrice": 136.86
+            },
+            {
+                "productId": "prd-0030",
+                "name": "Vertex Chair",
+                "sku": "VE-4506",
+                "quantity": 4,
+                "unitPrice": 407
+            },
+            {
+                "productId": "prd-0001",
+                "name": "Quartz Trackpad",
+                "sku": "QU-9683",
+                "quantity": 1,
+                "unitPrice": 357.04
+            }
+        ],
+        "shipping": {
+            "line1": "Marktplein 15",
+            "city": "Bologna",
+            "postcode": "1037 BF",
+            "country": "Italy"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-29T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-29T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-30T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Refunded",
+                "at": "2026-09-04T16:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0003",
+        "reference": "#36807",
+        "customerId": "cus-0018",
+        "customer": "Nikola Chen",
+        "email": "nikola.chen@mail.dev",
+        "total": 1375.95,
+        "items": 5,
+        "status": "failed",
+        "placedAt": "2026-08-21",
+        "lines": [
+            {
+                "productId": "prd-0028",
+                "name": "Ember Keyboard",
+                "sku": "EM-6317",
+                "quantity": 4,
+                "unitPrice": 318.97
+            },
+            {
+                "productId": "prd-0041",
+                "name": "Onyx SSD Enclosure",
+                "sku": "ON-2598",
+                "quantity": 1,
+                "unitPrice": 100.07
+            }
+        ],
+        "shipping": {
+            "line1": "Rue Vaugirard 18",
+            "city": "Novi Sad",
+            "postcode": "1074 CK",
+            "country": "Serbia"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-21T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment failed",
+                "at": "2026-08-21T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-22T14:00:00Z",
+                "done": false
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-25T11:00:00Z",
+                "done": false
+            }
+        ]
+    },
+    {
+        "id": "ord-0004",
+        "reference": "#33375",
+        "customerId": "cus-0025",
+        "customer": "Tomas Nielsen",
+        "email": "tomas.nielsen@mail.dev",
+        "total": 34.31,
+        "items": 1,
+        "status": "paid",
+        "placedAt": "2026-08-02",
+        "lines": [
+            {
+                "productId": "prd-0039",
+                "name": "Solace Desk Lamp",
+                "sku": "SO-2644",
+                "quantity": 1,
+                "unitPrice": 34.31
+            }
+        ],
+        "shipping": {
+            "line1": "Cedar Row 21",
+            "city": "Lyon",
+            "postcode": "1111 DP",
+            "country": "France"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-02T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-02T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-03T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-06T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0005",
+        "reference": "#96915",
+        "customerId": "cus-0032",
+        "customer": "Sofia Okafor",
+        "email": "sofia.okafor@example.com",
+        "total": 4818.86,
+        "items": 9,
+        "status": "refunded",
+        "placedAt": "2026-08-18",
+        "lines": [
+            {
+                "productId": "prd-0008",
+                "name": "Halcyon Hub",
+                "sku": "HA-5603",
+                "quantity": 2,
+                "unitPrice": 558.06
+            },
+            {
+                "productId": "prd-0021",
+                "name": "Aero Trackpad",
+                "sku": "AE-3177",
+                "quantity": 3,
+                "unitPrice": 62.94
+            },
+            {
+                "productId": "prd-0034",
+                "name": "Corvus Hub",
+                "sku": "CO-5992",
+                "quantity": 4,
+                "unitPrice": 878.48
+            }
+        ],
+        "shipping": {
+            "line1": "Harbour Way 24",
+            "city": "Pune",
+            "postcode": "1148 EU",
+            "country": "India"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-18T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-18T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-19T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Refunded",
+                "at": "2026-08-24T16:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0006",
+        "reference": "#91863",
+        "customerId": "cus-0039",
+        "customer": "Ines Horvat",
+        "email": "ines.horvat@example.com",
+        "total": 5250.58,
+        "items": 7,
+        "status": "refunded",
+        "placedAt": "2026-08-08",
+        "lines": [
+            {
+                "productId": "prd-0019",
+                "name": "Solace Mouse",
+                "sku": "SO-7323",
+                "quantity": 3,
+                "unitPrice": 839.74
+            },
+            {
+                "productId": "prd-0032",
+                "name": "Halcyon Stand",
+                "sku": "HA-9608",
+                "quantity": 4,
+                "unitPrice": 682.84
+            }
+        ],
+        "shipping": {
+            "line1": "Lindengracht 27",
+            "city": "Brno",
+            "postcode": "1185 FZ",
+            "country": "Czechia"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-08T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-08T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-09T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Refunded",
+                "at": "2026-08-14T16:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0007",
+        "reference": "#89621",
+        "customerId": "cus-0046",
+        "customer": "Lars Petrova",
+        "email": "lars.petrova@mail.dev",
+        "total": 1628,
+        "items": 4,
+        "status": "failed",
+        "placedAt": "2026-08-09",
+        "lines": [
+            {
+                "productId": "prd-0030",
+                "name": "Vertex Chair",
+                "sku": "VE-4506",
+                "quantity": 4,
+                "unitPrice": 407
+            }
+        ],
+        "shipping": {
+            "line1": "Alder Street 30",
+            "city": "Brno",
+            "postcode": "1222 GE",
+            "country": "Czechia"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-09T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment failed",
+                "at": "2026-08-09T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-10T14:00:00Z",
+                "done": false
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-13T11:00:00Z",
+                "done": false
+            }
+        ]
+    },
+    {
+        "id": "ord-0008",
+        "reference": "#52672",
+        "customerId": "cus-0005",
+        "customer": "Ines Novak",
+        "email": "ines.novak@example.com",
+        "total": 4219.23,
+        "items": 6,
+        "status": "paid",
+        "placedAt": "2026-08-10",
+        "lines": [
+            {
+                "productId": "prd-0041",
+                "name": "Onyx SSD Enclosure",
+                "sku": "ON-2598",
+                "quantity": 1,
+                "unitPrice": 100.07
+            },
+            {
+                "productId": "prd-0012",
+                "name": "Vertex Router",
+                "sku": "VE-8890",
+                "quantity": 2,
+                "unitPrice": 855.62
+            },
+            {
+                "productId": "prd-0025",
+                "name": "Nimbus Mouse",
+                "sku": "NI-6543",
+                "quantity": 3,
+                "unitPrice": 802.64
+            }
+        ],
+        "shipping": {
+            "line1": "Quay Terrace 33",
+            "city": "Novi Sad",
+            "postcode": "1259 HJ",
+            "country": "Serbia"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-10T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-10T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-11T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-14T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0009",
+        "reference": "#51940",
+        "customerId": "cus-0012",
+        "customer": "Priya Rossi",
+        "email": "priya.rossi@mail.dev",
+        "total": 506.34,
+        "items": 5,
+        "status": "refunded",
+        "placedAt": "2026-08-02",
+        "lines": [
+            {
+                "productId": "prd-0010",
+                "name": "Onyx Monitor",
+                "sku": "ON-5929",
+                "quantity": 2,
+                "unitPrice": 48.54
+            },
+            {
+                "productId": "prd-0023",
+                "name": "Slate Dock",
+                "sku": "SL-2746",
+                "quantity": 3,
+                "unitPrice": 136.42
+            }
+        ],
+        "shipping": {
+            "line1": "Kastanjelaan 36",
+            "city": "Fukuoka",
+            "postcode": "1296 IO",
+            "country": "Japan"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-02T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-02T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-03T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Refunded",
+                "at": "2026-08-08T16:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0010",
+        "reference": "#92699",
+        "customerId": "cus-0019",
+        "customer": "Sofia Tanaka",
+        "email": "sofia.tanaka@proton.dev",
+        "total": 188.82,
+        "items": 3,
+        "status": "paid",
+        "placedAt": "2026-07-30",
+        "lines": [
+            {
+                "productId": "prd-0021",
+                "name": "Aero Trackpad",
+                "sku": "AE-3177",
+                "quantity": 3,
+                "unitPrice": 62.94
+            }
+        ],
+        "shipping": {
+            "line1": "Marktplein 39",
+            "city": "Aarhus",
+            "postcode": "1333 JT",
+            "country": "Denmark"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-07-30T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-07-30T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-07-31T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-03T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0011",
+        "reference": "#20534",
+        "customerId": "cus-0026",
+        "customer": "Priya Sharma",
+        "email": "priya.sharma@mail.dev",
+        "total": 4200.97,
+        "items": 7,
+        "status": "failed",
+        "placedAt": "2026-08-03",
+        "lines": [
+            {
+                "productId": "prd-0032",
+                "name": "Halcyon Stand",
+                "sku": "HA-9608",
+                "quantity": 4,
+                "unitPrice": 682.84
+            },
+            {
+                "productId": "prd-0003",
+                "name": "Quartz Desk Lamp",
+                "sku": "QU-9380",
+                "quantity": 1,
+                "unitPrice": 504.47
+            },
+            {
+                "productId": "prd-0016",
+                "name": "Lumen Charger",
+                "sku": "LU-8327",
+                "quantity": 2,
+                "unitPrice": 482.57
+            }
+        ],
+        "shipping": {
+            "line1": "Rue Vaugirard 42",
+            "city": "Fukuoka",
+            "postcode": "1370 KY",
+            "country": "Japan"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-03T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment failed",
+                "at": "2026-08-03T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-04T14:00:00Z",
+                "done": false
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-07T11:00:00Z",
+                "done": false
+            }
+        ]
+    },
+    {
+        "id": "ord-0012",
+        "reference": "#10194",
+        "customerId": "cus-0033",
+        "customer": "Stefan Nielsen",
+        "email": "stefan.nielsen@example.com",
+        "total": 1588.1,
+        "items": 3,
+        "status": "paid",
+        "placedAt": "2026-07-21",
+        "lines": [
+            {
+                "productId": "prd-0001",
+                "name": "Quartz Trackpad",
+                "sku": "QU-9683",
+                "quantity": 1,
+                "unitPrice": 357.04
+            },
+            {
+                "productId": "prd-0014",
+                "name": "Nimbus Trackpad",
+                "sku": "NI-9840",
+                "quantity": 2,
+                "unitPrice": 615.53
+            }
+        ],
+        "shipping": {
+            "line1": "Cedar Row 45",
+            "city": "Lyon",
+            "postcode": "1407 LD",
+            "country": "France"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-07-21T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-07-21T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-07-22T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-07-25T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0013",
+        "reference": "#69939",
+        "customerId": "cus-0040",
+        "customer": "Rafael Ortega",
+        "email": "rafael.ortega@mail.dev",
+        "total": 1711.24,
+        "items": 2,
+        "status": "pending",
+        "placedAt": "2026-08-10",
+        "lines": [
+            {
+                "productId": "prd-0012",
+                "name": "Vertex Router",
+                "sku": "VE-8890",
+                "quantity": 2,
+                "unitPrice": 855.62
+            }
+        ],
+        "shipping": {
+            "line1": "Harbour Way 48",
+            "city": "Gothenburg",
+            "postcode": "1444 MI",
+            "country": "Sweden"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-10T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-10T10:00:00Z",
+                "done": false
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-11T14:00:00Z",
+                "done": false
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-14T11:00:00Z",
+                "done": false
+            }
+        ]
+    },
+    {
+        "id": "ord-0014",
+        "reference": "#50181",
+        "customerId": "cus-0047",
+        "customer": "Omar Novak",
+        "email": "omar.novak@proton.dev",
+        "total": 1570.48,
+        "items": 8,
+        "status": "paid",
+        "placedAt": "2026-08-05",
+        "lines": [
+            {
+                "productId": "prd-0023",
+                "name": "Slate Dock",
+                "sku": "SL-2746",
+                "quantity": 3,
+                "unitPrice": 136.42
+            },
+            {
+                "productId": "prd-0036",
+                "name": "Vantage Stand",
+                "sku": "VA-7484",
+                "quantity": 4,
+                "unitPrice": 218.4
+            },
+            {
+                "productId": "prd-0007",
+                "name": "Onyx Chair",
+                "sku": "ON-5317",
+                "quantity": 1,
+                "unitPrice": 287.62
+            }
+        ],
+        "shipping": {
+            "line1": "Lindengracht 51",
+            "city": "Novi Sad",
+            "postcode": "1481 NN",
+            "country": "Serbia"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-05T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-05T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-06T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-09T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0015",
+        "reference": "#91076",
+        "customerId": "cus-0006",
+        "customer": "Pablo Karim",
+        "email": "pablo.karim@example.com",
+        "total": 4412.48,
+        "items": 5,
+        "status": "paid",
+        "placedAt": "2026-08-28",
+        "lines": [
+            {
+                "productId": "prd-0034",
+                "name": "Corvus Hub",
+                "sku": "CO-5992",
+                "quantity": 4,
+                "unitPrice": 878.48
+            },
+            {
+                "productId": "prd-0005",
+                "name": "Drift Keyboard",
+                "sku": "DR-9648",
+                "quantity": 1,
+                "unitPrice": 898.56
+            }
+        ],
+        "shipping": {
+            "line1": "Alder Street 54",
+            "city": "Bologna",
+            "postcode": "1518 OS",
+            "country": "Italy"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-28T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-28T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-29T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-09-01T11:00:00Z",
+                "done": false
+            }
+        ]
+    },
+    {
+        "id": "ord-0016",
+        "reference": "#77263",
+        "customerId": "cus-0013",
+        "customer": "Leila Novak",
+        "email": "leila.novak@mail.dev",
+        "total": 504.47,
+        "items": 1,
+        "status": "paid",
+        "placedAt": "2026-07-27",
+        "lines": [
+            {
+                "productId": "prd-0003",
+                "name": "Quartz Desk Lamp",
+                "sku": "QU-9380",
+                "quantity": 1,
+                "unitPrice": 504.47
+            }
+        ],
+        "shipping": {
+            "line1": "Quay Terrace 57",
+            "city": "Singapore",
+            "postcode": "1555 PX",
+            "country": "Singapore"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-07-27T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-07-27T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-07-28T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-07-31T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0017",
+        "reference": "#62386",
+        "customerId": "cus-0020",
+        "customer": "Pablo Tanaka",
+        "email": "pablo.tanaka@mail.dev",
+        "total": 5356.25,
+        "items": 9,
+        "status": "paid",
+        "placedAt": "2026-08-30",
+        "lines": [
+            {
+                "productId": "prd-0014",
+                "name": "Nimbus Trackpad",
+                "sku": "NI-9840",
+                "quantity": 2,
+                "unitPrice": 615.53
+            },
+            {
+                "productId": "prd-0027",
+                "name": "Onyx Dock",
+                "sku": "ON-7655",
+                "quantity": 3,
+                "unitPrice": 355.93
+            },
+            {
+                "productId": "prd-0040",
+                "name": "Ridge Monitor",
+                "sku": "RI-8739",
+                "quantity": 4,
+                "unitPrice": 764.35
+            }
+        ],
+        "shipping": {
+            "line1": "Kastanjelaan 60",
+            "city": "Novi Sad",
+            "postcode": "1592 QC",
+            "country": "Serbia"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-30T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-30T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-31T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-09-03T11:00:00Z",
+                "done": false
+            }
+        ]
+    },
+    {
+        "id": "ord-0018",
+        "reference": "#19430",
+        "customerId": "cus-0027",
+        "customer": "Zara Marek",
+        "email": "zara.marek@mail.dev",
+        "total": 4333.12,
+        "items": 7,
+        "status": "refunded",
+        "placedAt": "2026-07-21",
+        "lines": [
+            {
+                "productId": "prd-0025",
+                "name": "Nimbus Mouse",
+                "sku": "NI-6543",
+                "quantity": 3,
+                "unitPrice": 802.64
+            },
+            {
+                "productId": "prd-0038",
+                "name": "Corvus Desk Lamp",
+                "sku": "CO-9447",
+                "quantity": 4,
+                "unitPrice": 481.3
+            }
+        ],
+        "shipping": {
+            "line1": "Marktplein 63",
+            "city": "Valencia",
+            "postcode": "1629 RH",
+            "country": "Spain"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-07-21T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-07-21T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-07-22T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Refunded",
+                "at": "2026-07-27T16:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0019",
+        "reference": "#58442",
+        "customerId": "cus-0034",
+        "customer": "Anika Farouk",
+        "email": "anika.farouk@proton.dev",
+        "total": 873.6,
+        "items": 4,
+        "status": "refunded",
+        "placedAt": "2026-08-10",
+        "lines": [
+            {
+                "productId": "prd-0036",
+                "name": "Vantage Stand",
+                "sku": "VA-7484",
+                "quantity": 4,
+                "unitPrice": 218.4
+            }
+        ],
+        "shipping": {
+            "line1": "Rue Vaugirard 66",
+            "city": "Plovdiv",
+            "postcode": "1666 SM",
+            "country": "Bulgaria"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-10T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-10T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-11T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Refunded",
+                "at": "2026-08-16T16:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0020",
+        "reference": "#28929",
+        "customerId": "cus-0041",
+        "customer": "Anika Serrano",
+        "email": "anika.serrano@mail.dev",
+        "total": 1867.88,
+        "items": 6,
+        "status": "paid",
+        "placedAt": "2026-07-24",
+        "lines": [
+            {
+                "productId": "prd-0005",
+                "name": "Drift Keyboard",
+                "sku": "DR-9648",
+                "quantity": 1,
+                "unitPrice": 898.56
+            },
+            {
+                "productId": "prd-0018",
+                "name": "Solace Mouse",
+                "sku": "SO-1818",
+                "quantity": 2,
+                "unitPrice": 42.55
+            },
+            {
+                "productId": "prd-0031",
+                "name": "Halcyon Webcam",
+                "sku": "HA-8676",
+                "quantity": 3,
+                "unitPrice": 294.74
+            }
+        ],
+        "shipping": {
+            "line1": "Cedar Row 69",
+            "city": "Aarhus",
+            "postcode": "1703 TR",
+            "country": "Denmark"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-07-24T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-07-24T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-07-25T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-07-28T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0021",
+        "reference": "#73367",
+        "customerId": "cus-0048",
+        "customer": "Noah Dubois",
+        "email": "noah.dubois@mail.dev",
+        "total": 2760.13,
+        "items": 5,
+        "status": "paid",
+        "placedAt": "2026-08-24",
+        "lines": [
+            {
+                "productId": "prd-0016",
+                "name": "Lumen Charger",
+                "sku": "LU-8327",
+                "quantity": 2,
+                "unitPrice": 482.57
+            },
+            {
+                "productId": "prd-0029",
+                "name": "Halcyon Hub",
+                "sku": "HA-1237",
+                "quantity": 3,
+                "unitPrice": 598.33
+            }
+        ],
+        "shipping": {
+            "line1": "Harbour Way 72",
+            "city": "Alexandria",
+            "postcode": "1740 UW",
+            "country": "Egypt"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-24T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-24T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-25T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-28T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0022",
+        "reference": "#88821",
+        "customerId": "cus-0007",
+        "customer": "Freya Marek",
+        "email": "freya.marek@example.com",
+        "total": 1067.79,
+        "items": 3,
+        "status": "paid",
+        "placedAt": "2026-08-09",
+        "lines": [
+            {
+                "productId": "prd-0027",
+                "name": "Onyx Dock",
+                "sku": "ON-7655",
+                "quantity": 3,
+                "unitPrice": 355.93
+            }
+        ],
+        "shipping": {
+            "line1": "Lindengracht 75",
+            "city": "Porto",
+            "postcode": "1777 VB",
+            "country": "Portugal"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-09T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-09T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-10T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-13T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0023",
+        "reference": "#28915",
+        "customerId": "cus-0014",
+        "customer": "Elena Petrova",
+        "email": "elena.petrova@acme.io",
+        "total": 3988.11,
+        "items": 7,
+        "status": "refunded",
+        "placedAt": "2026-07-18",
+        "lines": [
+            {
+                "productId": "prd-0038",
+                "name": "Corvus Desk Lamp",
+                "sku": "CO-9447",
+                "quantity": 4,
+                "unitPrice": 481.3
+            },
+            {
+                "productId": "prd-0009",
+                "name": "Quartz Chair",
+                "sku": "QU-9848",
+                "quantity": 1,
+                "unitPrice": 881.03
+            },
+            {
+                "productId": "prd-0022",
+                "name": "Quartz Microphone",
+                "sku": "QU-6646",
+                "quantity": 2,
+                "unitPrice": 590.94
+            }
+        ],
+        "shipping": {
+            "line1": "Alder Street 78",
+            "city": "Gothenburg",
+            "postcode": "1814 WG",
+            "country": "Sweden"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-07-18T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-07-18T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-07-19T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Refunded",
+                "at": "2026-07-24T16:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0024",
+        "reference": "#76296",
+        "customerId": "cus-0021",
+        "customer": "Jonas Sharma",
+        "email": "jonas.sharma@example.com",
+        "total": 1093.76,
+        "items": 3,
+        "status": "paid",
+        "placedAt": "2026-08-25",
+        "lines": [
+            {
+                "productId": "prd-0007",
+                "name": "Onyx Chair",
+                "sku": "ON-5317",
+                "quantity": 1,
+                "unitPrice": 287.62
+            },
+            {
+                "productId": "prd-0020",
+                "name": "Kestrel Hub",
+                "sku": "KE-6641",
+                "quantity": 2,
+                "unitPrice": 403.07
+            }
+        ],
+        "shipping": {
+            "line1": "Quay Terrace 81",
+            "city": "Gothenburg",
+            "postcode": "1851 XL",
+            "country": "Sweden"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-25T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-25T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-26T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-29T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0025",
+        "reference": "#89557",
+        "customerId": "cus-0028",
+        "customer": "Luca Costa",
+        "email": "luca.costa@proton.dev",
+        "total": 85.1,
+        "items": 2,
+        "status": "refunded",
+        "placedAt": "2026-08-04",
+        "lines": [
+            {
+                "productId": "prd-0018",
+                "name": "Solace Mouse",
+                "sku": "SO-1818",
+                "quantity": 2,
+                "unitPrice": 42.55
+            }
+        ],
+        "shipping": {
+            "line1": "Kastanjelaan 84",
+            "city": "Aarhus",
+            "postcode": "1888 YQ",
+            "country": "Denmark"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-04T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-04T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-05T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Refunded",
+                "at": "2026-08-10T16:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0026",
+        "reference": "#56361",
+        "customerId": "cus-0035",
+        "customer": "Anika Jevric",
+        "email": "anika.jevric@mail.dev",
+        "total": 3825.83,
+        "items": 8,
+        "status": "paid",
+        "placedAt": "2026-08-09",
+        "lines": [
+            {
+                "productId": "prd-0029",
+                "name": "Halcyon Hub",
+                "sku": "HA-1237",
+                "quantity": 3,
+                "unitPrice": 598.33
+            },
+            {
+                "productId": "prd-0042",
+                "name": "Quartz Webcam",
+                "sku": "QU-5454",
+                "quantity": 4,
+                "unitPrice": 293.45
+            },
+            {
+                "productId": "prd-0013",
+                "name": "Halcyon Webcam",
+                "sku": "HA-4563",
+                "quantity": 1,
+                "unitPrice": 857.04
+            }
+        ],
+        "shipping": {
+            "line1": "Marktplein 87",
+            "city": "Fukuoka",
+            "postcode": "1925 ZV",
+            "country": "Japan"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-09T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-09T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-10T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-13T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0027",
+        "reference": "#79404",
+        "customerId": "cus-0042",
+        "customer": "Sofia Bauer",
+        "email": "sofia.bauer@example.com",
+        "total": 3150.13,
+        "items": 5,
+        "status": "paid",
+        "placedAt": "2026-08-27",
+        "lines": [
+            {
+                "productId": "prd-0040",
+                "name": "Ridge Monitor",
+                "sku": "RI-8739",
+                "quantity": 4,
+                "unitPrice": 764.35
+            },
+            {
+                "productId": "prd-0011",
+                "name": "Drift Webcam",
+                "sku": "DR-2641",
+                "quantity": 1,
+                "unitPrice": 92.73
+            }
+        ],
+        "shipping": {
+            "line1": "Rue Vaugirard 90",
+            "city": "Singapore",
+            "postcode": "1962 AA",
+            "country": "Singapore"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-27T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-27T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-28T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-31T11:00:00Z",
+                "done": false
+            }
+        ]
+    },
+    {
+        "id": "ord-0028",
+        "reference": "#61970",
+        "customerId": "cus-0001",
+        "customer": "Viktor Alvarez",
+        "email": "viktor.alvarez@proton.dev",
+        "total": 881.03,
+        "items": 1,
+        "status": "paid",
+        "placedAt": "2026-08-16",
+        "lines": [
+            {
+                "productId": "prd-0009",
+                "name": "Quartz Chair",
+                "sku": "QU-9848",
+                "quantity": 1,
+                "unitPrice": 881.03
+            }
+        ],
+        "shipping": {
+            "line1": "Cedar Row 93",
+            "city": "Alexandria",
+            "postcode": "1999 BF",
+            "country": "Egypt"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-16T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-16T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-17T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-20T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0029",
+        "reference": "#58329",
+        "customerId": "cus-0008",
+        "customer": "Clara Nasser",
+        "email": "clara.nasser@example.com",
+        "total": 4105.58,
+        "items": 9,
+        "status": "failed",
+        "placedAt": "2026-07-31",
+        "lines": [
+            {
+                "productId": "prd-0020",
+                "name": "Kestrel Hub",
+                "sku": "KE-6641",
+                "quantity": 2,
+                "unitPrice": 403.07
+            },
+            {
+                "productId": "prd-0033",
+                "name": "Meridian Hub",
+                "sku": "ME-5486",
+                "quantity": 3,
+                "unitPrice": 427.04
+            },
+            {
+                "productId": "prd-0004",
+                "name": "Quartz Keyboard",
+                "sku": "QU-3799",
+                "quantity": 4,
+                "unitPrice": 504.58
+            }
+        ],
+        "shipping": {
+            "line1": "Harbour Way 96",
+            "city": "Lyon",
+            "postcode": "2036 CK",
+            "country": "France"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-07-31T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment failed",
+                "at": "2026-07-31T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-01T14:00:00Z",
+                "done": false
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-04T11:00:00Z",
+                "done": false
+            }
+        ]
+    },
+    {
+        "id": "ord-0030",
+        "reference": "#79210",
+        "customerId": "cus-0015",
+        "customer": "Zara Alvarez",
+        "email": "zara.alvarez@mail.dev",
+        "total": 1086.02,
+        "items": 7,
+        "status": "paid",
+        "placedAt": "2026-08-25",
+        "lines": [
+            {
+                "productId": "prd-0031",
+                "name": "Halcyon Webcam",
+                "sku": "HA-8676",
+                "quantity": 3,
+                "unitPrice": 294.74
+            },
+            {
+                "productId": "prd-0002",
+                "name": "Ridge Keyboard",
+                "sku": "RI-1774",
+                "quantity": 4,
+                "unitPrice": 50.45
+            }
+        ],
+        "shipping": {
+            "line1": "Lindengracht 99",
+            "city": "Valencia",
+            "postcode": "2073 DP",
+            "country": "Spain"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-25T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-25T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-26T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-29T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0031",
+        "reference": "#87115",
+        "customerId": "cus-0022",
+        "customer": "Pablo Raman",
+        "email": "pablo.raman@example.com",
+        "total": 1173.8,
+        "items": 4,
+        "status": "failed",
+        "placedAt": "2026-07-25",
+        "lines": [
+            {
+                "productId": "prd-0042",
+                "name": "Quartz Webcam",
+                "sku": "QU-5454",
+                "quantity": 4,
+                "unitPrice": 293.45
+            }
+        ],
+        "shipping": {
+            "line1": "Alder Street 102",
+            "city": "Gothenburg",
+            "postcode": "2110 EU",
+            "country": "Sweden"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-07-25T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment failed",
+                "at": "2026-07-25T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-07-26T14:00:00Z",
+                "done": false
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-07-29T11:00:00Z",
+                "done": false
+            }
+        ]
+    },
+    {
+        "id": "ord-0032",
+        "reference": "#78631",
+        "customerId": "cus-0029",
+        "customer": "Mateo Raman",
+        "email": "mateo.raman@example.com",
+        "total": 2460.98,
+        "items": 6,
+        "status": "paid",
+        "placedAt": "2026-07-25",
+        "lines": [
+            {
+                "productId": "prd-0011",
+                "name": "Drift Webcam",
+                "sku": "DR-2641",
+                "quantity": 1,
+                "unitPrice": 92.73
+            },
+            {
+                "productId": "prd-0024",
+                "name": "Vantage Mouse",
+                "sku": "VA-9263",
+                "quantity": 2,
+                "unitPrice": 598.63
+            },
+            {
+                "productId": "prd-0037",
+                "name": "Solace Hub",
+                "sku": "SO-4427",
+                "quantity": 3,
+                "unitPrice": 390.33
+            }
+        ],
+        "shipping": {
+            "line1": "Quay Terrace 105",
+            "city": "Hamburg",
+            "postcode": "2147 FZ",
+            "country": "Germany"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-07-25T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-07-25T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-07-26T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-07-29T11:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0033",
+        "reference": "#23983",
+        "customerId": "cus-0036",
+        "customer": "Stefan Okafor",
+        "email": "stefan.okafor@example.com",
+        "total": 2885.73,
+        "items": 5,
+        "status": "refunded",
+        "placedAt": "2026-08-13",
+        "lines": [
+            {
+                "productId": "prd-0022",
+                "name": "Quartz Microphone",
+                "sku": "QU-6646",
+                "quantity": 2,
+                "unitPrice": 590.94
+            },
+            {
+                "productId": "prd-0035",
+                "name": "Solace Desk Lamp",
+                "sku": "SO-9680",
+                "quantity": 3,
+                "unitPrice": 567.95
+            }
+        ],
+        "shipping": {
+            "line1": "Kastanjelaan 108",
+            "city": "Bologna",
+            "postcode": "2184 GE",
+            "country": "Italy"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-13T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment confirmed",
+                "at": "2026-08-13T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-14T14:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Refunded",
+                "at": "2026-08-19T16:00:00Z",
+                "done": true
+            }
+        ]
+    },
+    {
+        "id": "ord-0034",
+        "reference": "#46309",
+        "customerId": "cus-0043",
+        "customer": "Rafael Bauer",
+        "email": "rafael.bauer@acme.io",
+        "total": 1281.12,
+        "items": 3,
+        "status": "failed",
+        "placedAt": "2026-07-31",
+        "lines": [
+            {
+                "productId": "prd-0033",
+                "name": "Meridian Hub",
+                "sku": "ME-5486",
+                "quantity": 3,
+                "unitPrice": 427.04
+            }
+        ],
+        "shipping": {
+            "line1": "Marktplein 111",
+            "city": "Aarhus",
+            "postcode": "2221 HJ",
+            "country": "Denmark"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-07-31T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment failed",
+                "at": "2026-07-31T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-01T14:00:00Z",
+                "done": false
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-04T11:00:00Z",
+                "done": false
+            }
+        ]
+    },
+    {
+        "id": "ord-0035",
+        "reference": "#37342",
+        "customerId": "cus-0002",
+        "customer": "Ivan Petrova",
+        "email": "ivan.petrova@example.com",
+        "total": 1196.56,
+        "items": 7,
+        "status": "failed",
+        "placedAt": "2026-07-20",
+        "lines": [
+            {
+                "productId": "prd-0002",
+                "name": "Ridge Keyboard",
+                "sku": "RI-1774",
+                "quantity": 4,
+                "unitPrice": 50.45
+            },
+            {
+                "productId": "prd-0015",
+                "name": "Slate Stand",
+                "sku": "SL-9054",
+                "quantity": 1,
+                "unitPrice": 356.82
+            },
+            {
+                "productId": "prd-0028",
+                "name": "Ember Keyboard",
+                "sku": "EM-6317",
+                "quantity": 2,
+                "unitPrice": 318.97
+            }
+        ],
+        "shipping": {
+            "line1": "Rue Vaugirard 114",
+            "city": "Novi Sad",
+            "postcode": "2258 IO",
+            "country": "Serbia"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-07-20T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment failed",
+                "at": "2026-07-20T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-07-21T14:00:00Z",
+                "done": false
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-07-24T11:00:00Z",
+                "done": false
+            }
+        ]
+    },
+    {
+        "id": "ord-0036",
+        "reference": "#80738",
+        "customerId": "cus-0009",
+        "customer": "Sofia Costa",
+        "email": "sofia.costa@mail.dev",
+        "total": 2192.28,
+        "items": 3,
+        "status": "failed",
+        "placedAt": "2026-08-08",
+        "lines": [
+            {
+                "productId": "prd-0013",
+                "name": "Halcyon Webcam",
+                "sku": "HA-4563",
+                "quantity": 1,
+                "unitPrice": 857.04
+            },
+            {
+                "productId": "prd-0026",
+                "name": "Cinder Dock",
+                "sku": "CI-4914",
+                "quantity": 2,
+                "unitPrice": 667.62
+            }
+        ],
+        "shipping": {
+            "line1": "Cedar Row 117",
+            "city": "Novi Sad",
+            "postcode": "2295 JT",
+            "country": "Serbia"
+        },
+        "timeline": [
+            {
+                "label": "Order placed",
+                "at": "2026-08-08T09:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Payment failed",
+                "at": "2026-08-08T10:00:00Z",
+                "done": true
+            },
+            {
+                "label": "Fulfilled",
+                "at": "2026-08-09T14:00:00Z",
+                "done": false
+            },
+            {
+                "label": "Delivered",
+                "at": "2026-08-12T11:00:00Z",
+                "done": false
+            }
+        ]
+    }
+]

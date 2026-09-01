@@ -1,0 +1,11 @@
+{
+    "name": "deni",
+    "title": "Deni",
+    "description": "Full-featured admin dashboard built with OpenVue.",
+    "type": "admin-dashboard",
+    "stack": ["vite", "vue3", "typescript", "vue-router"],
+    "styling": "styled",
+    "theme": "aura",
+    "openvue": "^1.0.0-rc.0",
+    "license": "MIT"
+}
