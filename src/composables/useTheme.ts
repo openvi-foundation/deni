@@ -1,4 +1,4 @@
-import { updatePrimaryPalette, updateSurfacePalette, usePreset } from '@openvue/themes';
+import { updatePreset, updatePrimaryPalette, updateSurfacePalette, usePreset } from '@openvue/themes';
 import { computed } from 'vue';
 import { usePreferences, type PresetName, type PrimaryName, type Scheme, type SurfaceName } from './usePreferences';
 
@@ -6,7 +6,19 @@ const presetLoaders: Record<PresetName, () => Promise<{ default: Record<string, 
     aura: () => import('@openvue/themes/aura'),
     lara: () => import('@openvue/themes/lara'),
     material: () => import('@openvue/themes/material'),
-    nora: () => import('@openvue/themes/nora')
+    nora: () => import('@openvue/themes/nora'),
+    nide: () => import('@openvue/themes/nide')
+};
+
+const presetSurface: Partial<Record<PresetName, { light: SurfaceName; dark: SurfaceName }>> = {
+    nide: { light: 'neutral', dark: 'neutral' }
+};
+
+const DEFAULT_SURFACE = { light: 'slate', dark: 'zinc' } as const satisfies { light: SurfaceName; dark: SurfaceName };
+
+const nideAccentScheme = {
+    light: { primary: { color: '{primary.600}', contrastColor: '#ffffff', hoverColor: '{primary.700}', activeColor: '{primary.800}' } },
+    dark: { primary: { color: '{primary.400}', contrastColor: '{surface.950}', hoverColor: '{primary.300}', activeColor: '{primary.200}' } }
 };
 
 const STEPS = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950] as const;
@@ -34,8 +46,9 @@ export function useTheme() {
     };
 
     const applySurface = () => {
-        const light = preferences.surface ?? 'slate';
-        const dark = preferences.surface ?? 'zinc';
+        const fallback = presetSurface[preferences.preset] ?? DEFAULT_SURFACE;
+        const light = preferences.surface ?? fallback.light;
+        const dark = preferences.surface ?? fallback.dark;
 
         if (preferences.scheme === 'dim') {
             updateSurfacePalette({ light: paletteRef(light), dark: paletteRef(dark, DIM_SHIFT) });
@@ -48,8 +61,14 @@ export function useTheme() {
     };
 
     const applyPrimary = () => {
-        if (preferences.primary) {
-            updatePrimaryPalette(paletteRef(preferences.primary));
+        if (!preferences.primary) {
+            return;
+        }
+
+        updatePrimaryPalette(paletteRef(preferences.primary));
+
+        if (preferences.preset === 'nide') {
+            updatePreset({ semantic: { colorScheme: nideAccentScheme } });
         }
     };
 
@@ -79,14 +98,26 @@ export function useTheme() {
         await applyPreset(value);
     };
 
-    const setPrimary = (value: PrimaryName) => {
+    const setPrimary = async (value: PrimaryName | null) => {
         set('primary', value);
-        applyPrimary();
+
+        if (value) {
+            applyPrimary();
+            return;
+        }
+
+        await applyPreset(preferences.preset);
     };
 
-    const setSurface = (value: SurfaceName) => {
+    const setSurface = async (value: SurfaceName | null) => {
         set('surface', value);
-        applySurface();
+
+        if (value) {
+            applySurface();
+            return;
+        }
+
+        await applyPreset(preferences.preset);
     };
 
     const isDark = computed(() => preferences.scheme !== 'light');

@@ -54,15 +54,19 @@ The **appearance drawer** in the topbar controls:
 | Setting | Options |
 | --- | --- |
 | Colour scheme | Light · **Dim** · Dark |
-| Preset | Aura · Lara · Material · Nora |
-| Primary | 6 accents, or unset to keep the preset's own |
-| Surface | 5 neutral ramps |
+| Preset | Nide · Aura · Lara · Material · Nora (Aura by default) |
+| Primary | 6 accents, or the preset's own |
+| Surface | 5 neutral ramps, or the preset's own |
 | Menu mode | Static · Overlay · Slim |
 | Menu theme | Light · Dark, independent of the app scheme |
 | Layout | Boxed or full width |
 | Ripple | On · off |
 
 **Everything persists.** All of it is stored as one JSON object under `deni-preferences` (see `src/composables/usePreferences.ts`) and restored on boot. The colour scheme is applied by a small inline script in `index.html` before the app mounts, so there is no flash of the wrong theme. If you change the storage key or the scheme class names, update that script too.
+
+**First visit** follows the operating system's light or dark setting. After that the stored choice wins.
+
+**Nide** is the neutral preset added in OpenVue 1.1.0: near-black primary (near-white in dark mode), hairline borders and more compact controls. Its primary ramp is the surface ramp, so its default surface is `neutral` rather than Aura's `slate`/`zinc`. When you pick an accent on Nide, the template moves the primary colour to step 600 in light and 400 in dark, the same mapping the OpenVue showcase uses. Without that, Nide would draw the accent at 900, which is almost black.
 
 **Dim** is a third scheme, not a variant of dark. Dim and dark both apply `.app-dark` — keeping every OpenVue component correct — and are distinguished by shifting the dark surface ramp one step lighter, so the shell and the library's own components stay in agreement.
 
@@ -71,6 +75,19 @@ The **appearance drawer** in the topbar controls:
 > Note: in the light scheme, the active tab label in `Tabs` is drawn in the primary colour on white, which falls below 4.5:1 for several presets. That is how the OpenVue presets ship, and this template deliberately does not restyle library components.
 
 Chart.js datasets read the same tokens and re-render when the theme changes.
+
+## Updating an existing copy
+
+Deni is a template, not a package. You own the code once you copy it, so updates are not installed. You apply them yourself. Each release is listed in [CHANGELOG.md](CHANGELOG.md) with the files it touched, and each release is tagged. If your copy came from git, add this repository as a remote and look at what changed between two tags:
+
+```bash
+git remote add deni https://github.com/openvi-foundation/deni.git
+git fetch deni --tags
+git diff v1.0.0 v1.1.0 --stat
+git diff v1.0.0 v1.1.0 -- src/composables/useTheme.ts
+```
+
+Port the changes you want by hand, or `git cherry-pick` individual commits when your copy has not drifted much.
 
 ## Structure
 

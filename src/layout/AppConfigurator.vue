@@ -67,6 +67,8 @@ const ripple = computed({
     }
 });
 
+const DEFAULT_SWATCH = 'linear-gradient(135deg, var(--p-content-background) 0 46%, var(--p-content-border-color) 46% 54%, var(--p-content-background) 54% 100%)';
+
 const swatchStyle = (color: string, active: boolean) => ({
     background: color,
     width: '28px',
@@ -107,20 +109,22 @@ const restoreDemoData = async () => {
 
             <div class="field">
                 <label class="field-label">Preset</label>
-                <SelectButton v-model="preset" :options="presetOptions" option-label="label" option-value="value" :allow-empty="false" size="small" />
+                <SelectButton v-model="preset" :options="presetOptions" option-label="label" option-value="value" :allow-empty="false" size="small" class="preset-select" />
             </div>
 
             <div class="field">
                 <label class="field-label">Primary</label>
                 <div style="display: flex; flex-wrap: wrap; gap: 8px">
+                    <button type="button" title="Preset default" aria-label="Preset default" :style="swatchStyle(DEFAULT_SWATCH, preferences.primary === null)" @click="setPrimary(null)" />
                     <button v-for="option in primaryOptions" :key="option.value" type="button" :title="option.label" :aria-label="option.label" :style="swatchStyle(swatch[option.value], preferences.primary === option.value)" @click="setPrimary(option.value)" />
                 </div>
-                <p class="field-hint">Unset means the preset's own accent.</p>
+                <p class="field-hint">The first swatch keeps the preset's own accent. Nide's is near-black.</p>
             </div>
 
             <div class="field">
                 <label class="field-label">Surface</label>
                 <div style="display: flex; flex-wrap: wrap; gap: 8px">
+                    <button type="button" title="Preset default" aria-label="Preset default" :style="swatchStyle(DEFAULT_SWATCH, preferences.surface === null)" @click="setSurface(null)" />
                     <button v-for="option in surfaceOptions" :key="option.value" type="button" :title="option.label" :aria-label="option.label" :style="swatchStyle(surfaceSwatch[option.value], preferences.surface === option.value)" @click="setSurface(option.value)" />
                 </div>
             </div>

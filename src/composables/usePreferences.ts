@@ -6,7 +6,7 @@ const STORAGE_KEY = 'deni-preferences';
 export type Scheme = 'light' | 'dim' | 'dark';
 export type MenuMode = 'static' | 'overlay' | 'slim';
 export type MenuTheme = 'light' | 'dark';
-export type PresetName = 'aura' | 'lara' | 'material' | 'nora';
+export type PresetName = 'aura' | 'lara' | 'material' | 'nora' | 'nide';
 
 export const schemeOptions: SelectOption<Scheme>[] = [
     { label: 'Light', value: 'light' },
@@ -15,6 +15,7 @@ export const schemeOptions: SelectOption<Scheme>[] = [
 ];
 
 export const presetOptions: SelectOption<PresetName>[] = [
+    { label: 'Nide', value: 'nide' },
     { label: 'Aura', value: 'aura' },
     { label: 'Lara', value: 'lara' },
     { label: 'Material', value: 'material' },
@@ -63,8 +64,16 @@ export interface Preferences {
     ripple: boolean;
 }
 
+const systemScheme = (): Scheme => {
+    try {
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    } catch {
+        return 'light';
+    }
+};
+
 export const defaultPreferences: Preferences = {
-    scheme: 'light',
+    scheme: systemScheme(),
     preset: 'aura',
     primary: null,
     surface: null,

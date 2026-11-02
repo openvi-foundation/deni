@@ -15,7 +15,7 @@ const readTheme = (): ChartTheme => ({
     muted: readToken('--p-text-muted-color'),
     border: readToken('--p-content-border-color'),
     primary: readToken('--p-primary-color'),
-    series: [readToken('--p-primary-500'), readToken('--p-cyan-500'), readToken('--p-amber-500'), readToken('--p-emerald-500'), readToken('--p-rose-500'), readToken('--p-violet-500')]
+    series: [readToken('--p-primary-color'), readToken('--p-cyan-500'), readToken('--p-amber-500'), readToken('--p-emerald-500'), readToken('--p-rose-500'), readToken('--p-violet-500')]
 });
 
 export function useChartTheme() {
