@@ -63,7 +63,7 @@ const send = () => {
 };
 
 const rowStyle = (message: Message) => ({
-    background: message.id === activeId.value ? 'var(--p-surface-100)' : 'transparent',
+    background: message.id === activeId.value ? 'var(--deni-hover)' : 'transparent',
     borderLeft: message.id === activeId.value ? '2px solid var(--p-primary-color)' : '2px solid transparent'
 });
 </script>
@@ -97,7 +97,7 @@ const rowStyle = (message: Message) => ({
                             :key="message.id"
                             type="button"
                             :style="rowStyle(message)"
-                            style="display: flex; gap: 10px; width: 100%; padding: 12px 14px; border: 0; border-bottom: 1px solid var(--p-content-border-color); font: inherit; text-align: left; cursor: pointer"
+                            style="display: flex; gap: 10px; width: 100%; padding: 12px 14px; border: 0; border-bottom: 1px solid var(--p-content-border-color); font: inherit; color: inherit; text-align: left; cursor: pointer"
                             @click="select(message)"
                         >
                             <Avatar :label="initials(message.from)" shape="circle" size="normal" />
@@ -128,7 +128,7 @@ const rowStyle = (message: Message) => ({
 
                         <div style="flex: 1; padding: 20px 16px; font-size: 13.5px; line-height: 1.7">{{ active.body }}</div>
 
-                        <div style="padding: 12px 16px; border-top: 1px solid var(--p-content-border-color); background: var(--p-surface-50)">
+                        <div style="padding: 12px 16px; border-top: 1px solid var(--p-content-border-color); background: var(--deni-ground)">
                             <Textarea v-model="reply" rows="3" :placeholder="`Reply to ${active.from}`" auto-resize fluid />
                             <div style="display: flex; gap: 8px; margin-top: 10px">
                                 <Button label="Send" icon="pi pi-send" size="small" :disabled="!reply.trim()" @click="send" />
